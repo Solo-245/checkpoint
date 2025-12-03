@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+    for a := 0; a <= 98; a++ {
+        for b := a + 1; b <= 99; b++ {
+
+            // Print the two numbers with leading zeros
+            fmt.Printf("%02d %02d", a, b)
+
+            // Don't print ", " after the very last pair (98 99)
+            if !(a == 98 && b == 99) {
+                fmt.Printf(", ")
+            }
+        }
+    }
+}
+
