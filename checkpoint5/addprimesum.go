@@ -1,4 +1,4 @@
-/*package main
+package main
 
 import (
 	"os"
@@ -60,9 +60,9 @@ func main() {
 
 	printNbr(sum)
 	z01.PrintRune('\n')
-}*/
+}
 
-package main
+/*package main
 
 import (
 	"os"
@@ -114,4 +114,4 @@ func main() {
 
 	printNbr(sum)
 	z01.PrintRune('\n')
-}
+}*\
